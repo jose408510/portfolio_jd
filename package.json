@@ -1,0 +1,25 @@
+{
+  "name": "portfolio_jd",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose408510/portfolio_jd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose408510/portfolio_jd/issues"
+  },
+  "homepage": "https://github.com/jose408510/portfolio_jd#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.9.3"
+  }
+}
