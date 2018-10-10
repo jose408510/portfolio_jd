@@ -192,7 +192,10 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    height: 66%;
+    border: 3px #fff solid; 
+    border-radius: .5rem;
+  }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
@@ -228,11 +231,15 @@ main {
 
 .btn-dark {
   background: black;
-  color: #fff; }
+  color: #fff;
+  border-radius: .7rem;
+ }
 
 .btn-light {
   background: #c4c4c4;
-  color: #333; }
+  color: #333; 
+  border-radius:  .7rem;
+}
 
 #main-footer {
   text-align: center;
