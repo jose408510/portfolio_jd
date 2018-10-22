@@ -152,7 +152,10 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem; 
+      font-size: 2rem;
+       /* // made this change 11:57 0ct 22 */
+    }
       main .icons a:hover {
         color: 
         #eece1a;
